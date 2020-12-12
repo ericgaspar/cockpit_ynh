@@ -111,7 +111,7 @@ ynh_add_fpm_config
 
 # Set permissions to app files
 chown -R $app: $final_path
-chmod -R 777 $final_path/storage
+#chmod -R 777 $final_path/storage
 
 #=================================================
 # RELOAD NGINX
