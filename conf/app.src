@@ -2,5 +2,5 @@ SOURCE_URL=https://github.com/agentejo/cockpit/archive/0.11.2.zip
 SOURCE_SUM=9c743a754eed3e2cc895cb98b1a6a916fd68f4adb6ee32f95a2ef2c3e029ad37
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
-SOURCE_IN_SUBDIR=false
-SOURCE_EXTRACT=true
+SOURCE_IN_SUBDIR=true
+SOURCE_FILENAME=
