@@ -1,7 +1,7 @@
 # Cockpit Next for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/taskboard.svg)](https://dash.yunohost.org/appci/app/taskboard) ![](https://ci-apps.yunohost.org/ci/badges/taskboard.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/taskboard.maintain.svg)  
-[![Install TaskBoard with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=taskboard)
+[![Integration level](https://dash.yunohost.org/integration/taskboard.svg)](https://dash.yunohost.org/appci/app/cockpit) ![](https://ci-apps.yunohost.org/ci/badges/taskboard.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/taskboard.maintain.svg)  
+[![Install TaskBoard with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cockpit)
 
 *[Lire ce readme en français.](./README_fr.md)*
 
@@ -17,16 +17,16 @@ What TaskBoard does is make it easy to start keeping track of anything you need 
 
 ## Screenshots
 
-![](https://taskboard.matthewross.me/img/boards.043340f1.png)
+![]()
 
 ## Demo
 
-* [Official demo](https://taskboard.matthewross.me/demo)
+* [Official demo]()
 
 ## Documentation
 
- * Official documentation: https://taskboard.matthewross.me/docs/quick-start
- * YunoHost documentation: https://yunohost.org/#/app_taskboard
+ * Official documentation: 
+ * YunoHost documentation: https://yunohost.org/#/app_cockpit
 
 ## YunoHost specific features
 
@@ -37,8 +37,8 @@ What TaskBoard does is make it easy to start keeping track of anything you need 
 
 #### Supported architectures
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/taskboard%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/taskboard/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/taskboard%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/taskboard/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/cockpit%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/cockpit/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/cockpit%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/cockpit/)
 
 ## Limitations
 
@@ -50,7 +50,7 @@ What TaskBoard does is make it easy to start keeping track of anything you need 
 
 ## Links
 
- * Report a bug: https://github.com/YunoHost-Apps/taskboard_ynh/issues
+ * Report a bug: https://github.com/YunoHost-Apps/cockpit_ynh/issues
  * App website: http://getcockpit.com/
  * Upstream app repository: https://github.com/agentejo/cockpit
  * YunoHost website: https://yunohost.org/
@@ -59,11 +59,11 @@ What TaskBoard does is make it easy to start keeping track of anything you need 
 
 ## Developer info
 
-Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/taskboard_ynh/tree/testing).
+Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/cockpit_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/taskboard_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/cockpit_ynh/tree/testing --debug
 or
-sudo yunohost app upgrade taskboard -u https://github.com/YunoHost-Apps/taskboard_ynh/tree/testing --debug
+sudo yunohost app upgrade cockpit -u https://github.com/YunoHost-Apps/cockpit_ynh/tree/testing --debug
 ```

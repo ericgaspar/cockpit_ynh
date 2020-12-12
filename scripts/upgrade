@@ -103,7 +103,7 @@ ynh_system_user_create --username=$app
 ynh_script_progression --message="Upgrading PHP-FPM configuration..." --weight=1
 
 # Create a dedicated PHP-FPM config
-ynh_add_fpm_config --package="$extra_php_dependencies"
+ynh_add_fpm_config
 
 #=================================================
 # SECURE FILES AND DIRECTORIES
@@ -111,7 +111,7 @@ ynh_add_fpm_config --package="$extra_php_dependencies"
 
 # Set permissions to app files
 chown -R $app: $final_path
-chmod -R 777 $final_path/api
+chmod -R 777 $final_path/storage
 
 #=================================================
 # RELOAD NGINX
