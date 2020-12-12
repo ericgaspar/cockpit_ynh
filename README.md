@@ -1,4 +1,4 @@
-# TaskBoard for YunoHost
+# Cockpit Next for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/taskboard.svg)](https://dash.yunohost.org/appci/app/taskboard) ![](https://ci-apps.yunohost.org/ci/badges/taskboard.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/taskboard.maintain.svg)  
 [![Install TaskBoard with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=taskboard)
@@ -51,8 +51,8 @@ What TaskBoard does is make it easy to start keeping track of anything you need 
 ## Links
 
  * Report a bug: https://github.com/YunoHost-Apps/taskboard_ynh/issues
- * App website: https://taskboard.matthewross.me/
- * Upstream app repository: https://github.com/kiswa/TaskBoard
+ * App website: http://getcockpit.com/
+ * Upstream app repository: https://github.com/agentejo/cockpit
  * YunoHost website: https://yunohost.org/
 
 ---
